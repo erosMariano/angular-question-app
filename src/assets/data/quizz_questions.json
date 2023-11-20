@@ -1,9 +1,9 @@
 [
   {
-    "title": "Escolha sua Framework!",
+    "title": "Escolha seu Framework!",
     "description": "Vamos te ajudar a escolher uma framework para seu próximo projeto...",
     "hour": "10:00 AM",
-    "image": "https://cdn-media-1.freecodecamp.org/images/1*PNlbgb05IwSxOhAz0aA2rg.png",
+    "image": "/assets/images/image1.png",
     "questions": [
       {
         "id": 1,
@@ -79,7 +79,7 @@
     "title": "Você seria um herói ou vilão?",
     "description": "Está preparado para descobrir se você nasceu pra ser herói ou vilão?",
     "hour": "10:00 AM",
-    "image": "https://img.quizur.com/f/img5d48d357078fd6.07471215.jpeg?lastEdited=1565058501",
+    "image": "/assets/images/image2.png",
     "questions": [
       {
         "id": 1,
@@ -201,7 +201,7 @@
     "title": "Descubra seu Estilo de Viagem!",
     "description": "Vamos descobrir que tipo de viajante você é...",
     "hour": "10:00 AM",
-    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+    "image": "/assets/images/image3.png",
     "questions": [
       {
         "id": 1,
@@ -345,7 +345,7 @@
     "title": "Descubra seu Estilo Gastronômico!",
     "description": "Vamos descobrir seus gostos culinários...",
     "hour": "3:00 PM",
-    "image": "https://images.unsplash.com/photo-1607688719755-7a7d78d26ca9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "/assets/images/image4.png",
     "questions": [
       {
         "id": 1,
@@ -489,7 +489,7 @@
     "title": "Descubra seu Estilo de Moda!",
     "description": "Vamos descobrir seu estilo no mundo da moda...",
     "hour": "2:30 PM",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "image": "/assets/images/image5.png",
     "questions": [
       {
         "id": 1,
@@ -633,7 +633,7 @@
     "title": "Descubra suas Preferências Cinematográficas!",
     "description": "Vamos descobrir que tipo de filmes você mais gosta...",
     "hour": "5:00 PM",
-    "image": "https://images.unsplash.com/photo-1535016120720-40c646be5580?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "/assets/images/image6.png",
     "questions": [
       {
         "id": 1,
