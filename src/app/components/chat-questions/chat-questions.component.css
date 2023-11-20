@@ -18,7 +18,7 @@
   margin-bottom: 8px;
 }
 
-.chat__question__container img{
+.chat__question__container img {
   object-fit: cover;
 }
 .chat__question__container {
@@ -27,9 +27,9 @@
   cursor: pointer;
   padding: 12px;
   border-radius: 12px;
-  transition: .3s;
+  transition: 0.3s;
 }
-.chat__question__container:hover{
+.chat__question__container:hover {
   background-color: #f1f1f1;
 }
 .chat__question__texts {
@@ -63,4 +63,12 @@
 .text_element {
   justify-content: space-between;
   flex: 1;
+}
+
+
+
+@media(max-width: 820px){
+  .chat__question{
+    max-width: 100%;
+  }
 }

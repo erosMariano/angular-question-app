@@ -1,5 +1,81 @@
 [
   {
+    "title": "Escolha sua Framework!",
+    "description": "Vamos te ajudar a escolher uma framework para seu próximo projeto...",
+    "hour": "10:00 AM",
+    "image": "https://cdn-media-1.freecodecamp.org/images/1*PNlbgb05IwSxOhAz0aA2rg.png",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual tipo de curva de aprendizado você prefere?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Rápida e direta",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Gradual, mas bem estruturada",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Fácil de começar, flexível no longo prazo",
+            "alias": "C"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "O que é mais importante para você em uma framework?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Performance e reatividade",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Arquitetura robusta e suporte corporativo",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Simplicidade e flexibilidade",
+            "alias": "C"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual comunidade e ecossistema te atrai mais?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Comunidade diversificada e ativa",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Suporte extenso e comunidade madura",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Comunidade acolhedora e inovadora",
+            "alias": "C"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "React pode ser a framework ideal para você! Uma escolha popular para aplicações dinâmicas e reativas.",
+      "B": "Angular pode ser a framework que atende às suas necessidades! Oferece uma estrutura robusta e orientada a empresas.",
+      "C": "Vue pode ser a framework perfeita para você! Com uma curva de aprendizado suave e grande flexibilidade."
+    }
+  },
+  {
     "title": "Você seria um herói ou vilão?",
     "description": "Está preparado para descobrir se você nasceu pra ser herói ou vilão?",
     "hour": "10:00 AM",
@@ -263,6 +339,438 @@
       "B": "Você é um aventureiro de espírito livre, curte adrenalina e está sempre em busca de novas aventuras ao ar livre!",
       "C": "Seu estilo é explorar a cultura e história dos lugares, preferindo hotéis charmosos e focando em experiências culturais!",
       "D": "Você é um explorador da natureza, ama paisagens selvagens e busca destinos pouco explorados, optando por alojamentos locais!"
+    }
+  },
+  {
+    "title": "Descubra seu Estilo Gastronômico!",
+    "description": "Vamos descobrir seus gostos culinários...",
+    "hour": "3:00 PM",
+    "image": "https://images.unsplash.com/photo-1607688719755-7a7d78d26ca9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual tipo de culinária você mais gosta?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Italiana",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Japonesa",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Mexicana",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Indiana",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "O que mais te atrai em um prato?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Sabor marcante",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Apresentação visual",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Variedade de ingredientes",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Nível de picância",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual ingrediente não pode faltar na sua cozinha?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Massas",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Peixe cru",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Pimentas",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Curry",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Como prefere aprender novas receitas?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Assistindo vídeos",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Lendo livros de receitas",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Participando de workshops culinários",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Explorando por conta própria",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é seu prato favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Lasanha",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Sushi",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Tacos",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Curry de frango",
+            "alias": "D"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você é um amante da culinária italiana, aprecia sabores intensos e ama massas!",
+      "B": "Seu paladar é mais voltado para a culinária japonesa, com apreço por pratos visualmente atraentes e frescos!",
+      "C": "Você se encanta com a culinária mexicana, adora uma comida picante e cheia de variedade de ingredientes!",
+      "D": "Seu gosto gastronômico está mais próximo da culinária indiana, com sabores exóticos e ricos em especiarias!"
+    }
+  },
+  {
+    "title": "Descubra seu Estilo de Moda!",
+    "description": "Vamos descobrir seu estilo no mundo da moda...",
+    "hour": "2:30 PM",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual peça de roupa você mais gosta de usar?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vestidos/saias",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Calças/jeans",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Blusas/camisas",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Roupas esportivas",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Que tipo de acessório não falta no seu visual?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Colares/pulseiras",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Óculos/chapéus",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Bolsas/mochilas",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Tênis/sapatos",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual cor predomina no seu guarda-roupa?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Tons claros (branco, bege)",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Tons escuros (preto, azul-marinho)",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Cores vibrantes (vermelho, amarelo)",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Estampas variadas",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Como você se descreve em relação à moda?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Clássico e elegante",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Despojado e informal",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Criativo e ousado",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Versátil e inovador",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é o seu look preferido para ocasiões especiais?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vestido longo",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Terno/blazer",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Peças com brilho",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Roupas estilosas e modernas",
+            "alias": "D"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Seu estilo é mais clássico e elegante, optando por peças refinadas e sofisticadas!",
+      "B": "Você prefere um estilo despojado e casual, priorizando o conforto em suas roupas!",
+      "C": "Você é ousado e criativo na moda, apostando em cores vibrantes e combinações inusitadas!",
+      "D": "Seu estilo é versátil e inovador, sempre procurando por peças modernas e diferentes!"
+    }
+  },
+  {
+    "title": "Descubra suas Preferências Cinematográficas!",
+    "description": "Vamos descobrir que tipo de filmes você mais gosta...",
+    "hour": "5:00 PM",
+    "image": "https://images.unsplash.com/photo-1535016120720-40c646be5580?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual gênero cinematográfico é o seu favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ação/Aventura",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Comédia",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Drama",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Ficção Científica/Fantasia",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "O que mais te atrai em um filme?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Cenas de ação empolgantes",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Rir e se divertir",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Histórias emocionantes e profundas",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Mundos imaginários e efeitos especiais",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é o elemento crucial em um bom filme para você?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Grandes reviravoltas na trama",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Diálogos engraçados e inteligentes",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Atuações emocionantes",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Mundo fictício bem construído",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Como você escolhe um filme para assistir?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Pelos trailers e cenas de ação",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Pelos atores e humor envolvido",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Pela sinopse e críticas",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Pela ambientação e efeitos visuais",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é seu filme favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Matrix",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Pulp Fiction",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Forrest Gump",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Senhor dos Anéis",
+            "alias": "D"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você é fã de filmes de ação e aventura, curtindo cenas empolgantes e reviravoltas na trama!",
+      "B": "Seu gosto está mais voltado para comédias, apreciando diálogos inteligentes e momentos divertidos!",
+      "C": "Você prefere dramas emocionantes, valorizando atuações marcantes e histórias cativantes!",
+      "D": "Seu coração bate por filmes de ficção científica e fantasia, mergulhando em mundos imaginários e efeitos especiais!"
     }
   }
 ]

@@ -14,7 +14,7 @@ export class ChatQuestionsComponent {
   @Output() chatSelectedChange: EventEmitter<number> = new EventEmitter<number>();
   
   chatSelected: number = 0;
-
+  
 
   selectChat(index: number) {
     this.chatSelected = index;

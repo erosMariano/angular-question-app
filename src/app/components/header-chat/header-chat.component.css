@@ -95,3 +95,27 @@
   width: 24px;
   display: flex;
 }
+
+@media (max-width: 1130px) {
+  .header__container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .chat_infos {
+    justify-content: flex-start;
+  }
+  .chat__icons{
+    padding-left: 20%;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 940px) {
+  .chat__icons{
+    padding-left: 5%;
+    border: none;
+  }
+  .header__container{
+    margin-bottom: 24px;
+  }
+}

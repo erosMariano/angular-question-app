@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DatePipe } from '@angular/common';
 import { Option, QuestionQuiz } from '../../../types/types';
@@ -14,6 +14,9 @@ export class ChatComponent implements OnInit {
   actualDate = new Date();
   @Input() dataChats: QuestionQuiz[] = [];
   @Input() chatSelected: number = 0;
+  @Output() openModal: EventEmitter<boolean> = new EventEmitter<boolean>();
+  modalChatOpen: boolean = false
+
   dataQuestions: QuestionQuiz = this.dataChats[this.chatSelected];
   positionQuestion: number = 0;
   isResult: boolean = false;
@@ -28,6 +31,11 @@ export class ChatComponent implements OnInit {
     hour: Date;
   }[] = [];
 
+  handleCloseModal(){
+    this.openModal.emit(false)
+  }
+
+
   ngOnInit(): void {
     this.dataQuestions = this.dataChats[this.chatSelected];
     const questionBot = {
@@ -38,7 +46,6 @@ export class ChatComponent implements OnInit {
   }
   ngOnChanges(): void {
     this.dataQuestions = this.dataChats[this.chatSelected];
-    console.log(this.answerSelected);
   }
 
   async checkResult(answers: string[]) {
@@ -59,7 +66,7 @@ export class ChatComponent implements OnInit {
           result as keyof typeof this.dataQuestions.results
         ]
       ),
-      hour: new Date()
+      hour: new Date(),
     };
   }
 
@@ -74,16 +81,12 @@ export class ChatComponent implements OnInit {
         text: this.dataQuestions.questions[this.positionQuestion + 1].question,
         hour: new Date(),
       };
+      this.content.push(data);
       this.content.push(questionBot);
     } else {
-      const questionBot = {
-        text: this.dataQuestions.questions[this.positionQuestion].question,
-        hour: new Date(),
-      };
-      this.content.push(questionBot);
+      this.content.push(data);
     }
 
-    this.content.push(data);
     this.answers.push(option.alias);
     if (this.positionQuestion < this.dataQuestions.questions.length - 1) {
       this.positionQuestion += 1;

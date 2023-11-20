@@ -1,4 +1,5 @@
 <div class="container_chat">
+  <button class="close" (click)="handleCloseModal()"><img src="/assets/icons/close.svg" alt=""></button>
   <span class="date-now">20 de Nov, 2023</span>
 
   <div class="bot_message">
@@ -15,7 +16,7 @@
     </div>
 
     <ng-template #botMessage>
-      <div class="bot_message odd">
+      <div class="bot_message">
         <p>{{ textContent.text }}</p>
         <span class="hour">{{
           textContent.hour | date : "shortTime" : "h:mm a"
@@ -34,8 +35,10 @@
     </div>
   </div>
 
-
-  <div class="bot_message"  *ngIf="isResult">
+  <div class="bot_message" *ngIf="isResult">
     <p>{{ answerSelected.text }}</p>
-    <span class="hour">{{answerSelected.hour | date : "shortTime" : "h:mm a"}}</span>
+    <span class="hour">{{
+      answerSelected.hour | date : "shortTime" : "h:mm a"
+    }}</span>
+  </div>
 </div>

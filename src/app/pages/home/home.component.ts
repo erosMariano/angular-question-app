@@ -22,16 +22,20 @@ import { ChatQuestionsComponent } from '../../components/chat-questions/chat-que
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
-
 export class HomeComponent implements OnInit {
   dataQuiz: QuestionQuiz[] = [];
   quizSelect: number = 0;
+  openModal: boolean = false;
 
   ngOnInit(): void {
     this.dataQuiz.push(...data_quiz);
   }
+  handleModalOpen(value: boolean) {
+    this.openModal = value;
+  }
 
   onChatSelectedChange(selected: number) {
     this.quizSelect = selected;
+    this.openModal = true;
   }
 }

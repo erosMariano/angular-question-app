@@ -2,6 +2,7 @@
   <app-sidebar></app-sidebar>
 
   <section class="chat-questions__container">
+    <app-header-chat class="header-chat"></app-header-chat>
     <app-search></app-search>
     <app-chat-questions
       (chatSelectedChange)="onChatSelectedChange($event)"
@@ -10,12 +11,17 @@
     ></app-chat-questions>
   </section>
 
-  <section class="section__chat">
-    <app-header-chat></app-header-chat>
-    <app-chat
-      [chatSelected]="quizSelect"
-      [dataChats]="dataQuiz"
-      class="app_chat"
-    ></app-chat>
+  <section class="section__chat" [ngClass]="openModal ? 'open-modal' : ''">
+    <app-header-chat class="section__chat-chat"></app-header-chat>
+    <ng-container *ngFor="let quiz of dataQuiz; index as i">
+      <app-chat
+        (openModal)="handleModalOpen($event)"
+        [ngClass]="openModal ? 'open-modal' : ''"
+        *ngIf="quizSelect === i"
+        [chatSelected]="quizSelect"
+        [dataChats]="dataQuiz"
+        class="app_chat"
+      ></app-chat>
+    </ng-container>
   </section>
 </div>
