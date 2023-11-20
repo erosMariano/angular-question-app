@@ -1,0 +1,97 @@
+.header__container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  width: 100%;
+  flex: 1;
+  justify-content: space-between;
+}
+.user_infos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user_infos img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+.user_infos h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #010019;
+  width: max-content;
+}
+.user_infos span {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+.chat_infos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.chat_infos > button {
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid #cecece;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.chat_infos > button:nth-child(1) {
+  font-weight: 700;
+  color: #010019;
+  background-color: transparent;
+  margin-right: 12px;
+}
+.chat_infos > button:nth-child(1):hover {
+  background-color: #010019;
+  color: #fff;
+}
+
+.chat_infos > button:nth-child(2) {
+  background-color: #010019;
+  color: #fff;
+  font-weight: 700;
+}
+.chat_infos > button:nth-child(2):hover {
+  color: #010019;
+  background-color: transparent;
+}
+
+.chat__icons {
+  width: 100px;
+  border-left: 1px solid #cecece;
+  margin-left: 24px;
+  padding-left: 24px;
+}
+.chat__icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: auto;
+}
+.chat__icons button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.chat__icons button:hover {
+  background-color: #f1f1f1;
+}
+.chat__icons img {
+  width: 24px;
+  display: flex;
+}
