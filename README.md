@@ -1,27 +1,38 @@
-# AngularQuestionApp
+<img src="./src/assets/images/readme/logo-banner.png">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+<h1 id="sobre" style="margin-top: 20px; margin-bottom: 20px; text-align: center;"><strong>EnneCode -Question App</strong></h1>
 
-## Development server
+> Esse é um projeto desenvolvido com angular, com objetivo de criar uma aplicação de quizz, onde o usuário vai poder escolher um ou mais "chats" e descobrir o que lhe condiz com o perfil
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img style="margin-top: 40px; margin-bottom: 40px; text-align: center;" src="./src/assets/images/readme/desktop-image.png">
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Como instalar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Para baixar o projeto, siga as instruções abaixo:
 
-## Running end-to-end tests
+```
+1. git clone https://github.com/erosMariano/angular-question-app
+2. cd angular-question-app
+```
+```
+3. npm install
+4. npm dev
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Entre em contato
+[Eros Mariano - Linkedin](https://www.linkedin.com/in/erosmariano)
+
+
+<a href="https://blog.rocketseat.com.br/author/thiago/">
+ <img style="border-radius: 50%;" src="./src/assets/images/readme/perfil.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Eros Mariano</b></sub></a> <a href="https://www.linkedin.com/in/erosmariano/" title="Rocketseat"></a>
+
+
+Feito com ❤️ por Eros Mariano 👋🏽 Entre em contato!
