@@ -1,0 +1,16 @@
+.content{
+  display: flex;
+  height: 100%;
+  gap: 24px;
+}
+
+.chat-questions__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.app_questions{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

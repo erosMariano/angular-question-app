@@ -1,0 +1,18 @@
+<section class="chat__question">
+  <div class="chat__question__container" *ngFor="let chat of dataChats">
+    <img
+      src="https://m.media-amazon.com/images/I/61NMSffoXfL._AC_UF894,1000_QL80_.jpg"
+      alt=""
+    />
+
+    <div class="chat__question__texts">
+      <div class="title_element">
+        <h5>{{ chat.title }}</h5>
+        <span>{{ chat.hour }}</span>
+      </div>
+      <div class="text_element">
+        <span>{{ chat.text }}</span>
+      </div>
+    </div>
+  </div>
+</section>
