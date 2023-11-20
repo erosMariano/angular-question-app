@@ -1,14 +1,21 @@
 <div class="content">
   <app-sidebar></app-sidebar>
-  
 
   <section class="chat-questions__container">
     <app-search></app-search>
-    <app-chat-questions class="app_questions"></app-chat-questions>
+    <app-chat-questions
+      (chatSelectedChange)="onChatSelectedChange($event)"
+      [dataChats]="dataQuiz"
+      class="app_questions"
+    ></app-chat-questions>
   </section>
 
   <section class="section__chat">
     <app-header-chat></app-header-chat>
-    <app-chat class="app_chat"></app-chat>
+    <app-chat
+      [chatSelected]="quizSelect"
+      [dataChats]="dataQuiz"
+      class="app_chat"
+    ></app-chat>
   </section>
 </div>

@@ -1,1 +1,41 @@
-<div>chat works!</div>
+<div class="container_chat">
+  <span class="date-now">20 de Nov, 2023</span>
+
+  <div class="bot_message">
+    <p>{{ dataQuestions.description }}</p>
+    <span class="hour">{{ dataQuestions.hour }}</span>
+  </div>
+
+  <ng-container *ngFor="let textContent of content; index as i">
+    <div class="user_message" *ngIf="i % 2 !== 0; else botMessage">
+      <p>{{ textContent.text }}</p>
+      <span class="hour">{{
+        textContent.hour | date : "shortTime" : "h:mm a"
+      }}</span>
+    </div>
+
+    <ng-template #botMessage>
+      <div class="bot_message odd">
+        <p>{{ textContent.text }}</p>
+        <span class="hour">{{
+          textContent.hour | date : "shortTime" : "h:mm a"
+        }}</span>
+      </div>
+    </ng-template>
+  </ng-container>
+
+  <div class="user_message" *ngIf="!isResult">
+    <div class="options-button">
+      <ng-container
+        *ngFor="let option of dataQuestions.questions[positionQuestion].options"
+      >
+        <button (click)="selectOption(option)">{{ option.name }}</button>
+      </ng-container>
+    </div>
+  </div>
+
+
+  <div class="bot_message"  *ngIf="isResult">
+    <p>{{ answerSelected.text }}</p>
+    <span class="hour">{{answerSelected.hour | date : "shortTime" : "h:mm a"}}</span>
+</div>

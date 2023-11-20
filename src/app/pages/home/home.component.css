@@ -1,28 +1,36 @@
-.content{
+.content {
   display: flex;
   height: 100%;
   gap: 24px;
 }
 
-.chat-questions__container{
+.chat-questions__container {
   display: flex;
   flex-direction: column;
 }
 
-.app_questions{
+.app_questions {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-.section__chat{
+.section__chat {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-.app_chat{
+.app_chat {
   flex: 1;
   background-color: #fff;
   border-radius: 12px;
   padding: 20px;
+  overflow-y: auto;
+}
+
+.app_chat::-webkit-scrollbar {
+  width: 2px;
+}
+.app_chat::-webkit-scrollbar-thumb {
+  background-color: #ff4a09;
 }

@@ -1,0 +1,268 @@
+[
+  {
+    "title": "Você seria um herói ou vilão?",
+    "description": "Está preparado para descobrir se você nasceu pra ser herói ou vilão?",
+    "hour": "10:00 AM",
+    "image": "https://img.quizur.com/f/img5d48d357078fd6.07471215.jpeg?lastEdited=1565058501",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual super poder você escolheria ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Raios-Lasers",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Voar",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Explodir coisas",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Curar feridas",
+            "alias": "B"
+          },
+          {
+            "id": 5,
+            "name": "Soltar fogo pelas mãos",
+            "alias": "A"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Quem você salvaria primeiro ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Crianças",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Idosos",
+            "alias": "A"
+          },
+          {
+            "id": 3,
+            "name": "Não saberia escolher",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual a sua maior preocupação ao enfrear outro super ser?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Não destruir prédios",
+            "alias": "B"
+          },
+          {
+            "id": 2,
+            "name": "Socar a cara do inimigo",
+            "alias": "A"
+          },
+          {
+            "id": 3,
+            "name": "Não sujar meu traje",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Não deixar ninguém se ferir",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual o seu maior foco ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ficar rico com poderes",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Salvar a cidade",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual o seu apelido de super ser ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "O Terrivel",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Amigo da vizinhança",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você muito provavelmente seria um super vilão!",
+      "B": "Você muito provavelmente seria um super Herói!"
+    }
+  },
+  {
+    "title": "Descubra seu Estilo de Viagem!",
+    "description": "Vamos descobrir que tipo de viajante você é...",
+    "hour": "10:00 AM",
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual ambiente natural você prefere?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Praias e oceanos",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Montanhas e trilhas",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Florestas exuberantes",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Desertos e paisagens áridas",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "O que te atrai mais em uma viagem?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Cultura local e história",
+            "alias": "C"
+          },
+          {
+            "id": 2,
+            "name": "Aventura e esportes radicais",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Relaxar e descansar",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Explorar a vida selvagem",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é sua preferência de transporte?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Avião",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Caminhadas e trekking",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Carro ou moto",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Cruzeiro ou barco",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "O que não pode faltar na sua bagagem?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Protetor solar e óculos de sol",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Kit de primeiros socorros e equipamentos de sobrevivência",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Câmera fotográfica e notebook",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Binóculos e mapas",
+            "alias": "D"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual o seu estilo de hospedagem favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Resort de luxo",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Acampar ao ar livre",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Hotéis boutique ou charmosos",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Alojamentos locais ou casas de hóspedes",
+            "alias": "D"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você é um viajante tranquilo que adora relaxar e aproveitar o conforto, provavelmente prefere destinos de praia ou resorts de luxo!",
+      "B": "Você é um aventureiro de espírito livre, curte adrenalina e está sempre em busca de novas aventuras ao ar livre!",
+      "C": "Seu estilo é explorar a cultura e história dos lugares, preferindo hotéis charmosos e focando em experiências culturais!",
+      "D": "Você é um explorador da natureza, ama paisagens selvagens e busca destinos pouco explorados, optando por alojamentos locais!"
+    }
+  }
+]

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input,  Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { QuestionQuiz } from '../../../types/types';
 
 @Component({
   selector: 'app-chat-questions',
@@ -9,16 +10,14 @@ import { CommonModule } from '@angular/common';
   styleUrl: './chat-questions.component.css',
 })
 export class ChatQuestionsComponent {
-  dataChats = [
-    {
-      title: 'Eros Mariano',
-      text: 'Fala Comigo bebe',
-      hour: '10:27 AM',
-    },
-    {
-      title: 'Eros Mariano 2',
-      text: 'Fala Comigo bebe 2',
-      hour: '10:34 AM',
-    },
-  ];
+  @Input() dataChats: QuestionQuiz[] = [];
+  @Output() chatSelectedChange: EventEmitter<number> = new EventEmitter<number>();
+  
+  chatSelected: number = 0;
+
+
+  selectChat(index: number) {
+    this.chatSelected = index;
+    this.chatSelectedChange.emit(this.chatSelected)
+  }
 }

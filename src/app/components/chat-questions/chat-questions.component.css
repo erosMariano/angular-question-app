@@ -18,6 +18,9 @@
   margin-bottom: 8px;
 }
 
+.chat__question__container img{
+  object-fit: cover;
+}
 .chat__question__container {
   display: flex;
   flex: 1;
@@ -42,7 +45,7 @@
   align-items: center;
 }
 .title_element h5 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
 }
 .title_element span {
