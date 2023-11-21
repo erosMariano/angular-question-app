@@ -20,7 +20,7 @@
 ```
 ```
 3. npm install
-4. npm dev
+4. ng serve
 ```
 
 
